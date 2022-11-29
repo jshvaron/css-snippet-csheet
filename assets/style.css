@@ -4,8 +4,9 @@ html{
  }
  
  :root{
-     --cloudy: rgb(146, 146, 146);
+     --cloudy: rgb(209, 209, 209);
      --cottoncandy: rgb(227, 102, 255);
+     --bone: rgb(255, 247, 247);
  }
  /* end*/
  
@@ -74,11 +75,15 @@ html{
     background-image: linear-gradient(rgb(101, 65, 100) 1%, rgb(162, 96, 178));
     width: 350px;
     height: 280px;
-    display: flex;
-    justify-items: center;
-    align-items: center;
     border-radius: 12.5px;
     
  }
+
+.info-card{
+    display: flex;
+    color: var(--bone);
+    font-size: 1rem;
+    font-family: monospace;
+}
  
  /* end */
