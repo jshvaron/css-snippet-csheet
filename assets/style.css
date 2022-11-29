@@ -1,8 +1,6 @@
 /* Universals*/
-*{
-    background-color: rgb(55, 61, 67);
-    
-    
+html{
+    background-color: rgb(55, 61, 67);    
  }
  
  :root{
@@ -40,6 +38,7 @@
      flex-direction: column;
      padding-left: 4px;
      color: var(--cottoncandy);
+     background-color: rgb(55, 61, 67);
  
  }
  /* end*/
@@ -79,6 +78,7 @@
     justify-items: center;
     align-items: center;
     border-radius: 12.5px;
+    
  }
  
  /* end */
