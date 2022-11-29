@@ -1,11 +1,13 @@
 /* Universals*/
 *{
     background-color: rgb(55, 61, 67);
-    color: rgb(227, 102, 255);
+    
+    
  }
  
  :root{
      --cloudy: rgb(146, 146, 146);
+     --cottoncandy: rgb(227, 102, 255);
  }
  /* end*/
  
@@ -15,43 +17,68 @@
      display: flex;
      justify-content: center;
      font-size: 3rem;
+     color: var(--cottoncandy);
+     
  }
- .mid {
+ .under {
      display: flex;
      justify-content: center;
+     align-items: center;
      text-align: center;
      flex-wrap: wrap;
      color: var(--cloudy);
      font-size: 16px;
-     margin: 50px 100px;
+     margin: auto
+     width: 1000px;
  }
  h2{
      border: solid var(--cloudy);
-     margin: -20px auto 0 auto;
+     margin: -20px 0 0 -12px;
      border-radius: 5px;
      width: 375px;
      display: flex;
      flex-direction: column;
      padding-left: 4px;
+     color: var(--cottoncandy);
  
  }
  /* end*/
  
  
- /* formats Info cards*/
- .card {
-     border: black 5px solid;
-     display: inline-block;
-     height: 400px;
-     width: 400px;
-     margin: 50px;
-     
- }
- 
+ /* Structures Info cards*/
+
  #container {  
     display: flex;
     flex-wrap: wrap; 
     justify-content: center;
-    margin: ;
+    
  }
+ .card {
+     border: var(--cloudy) 2px solid;
+     display: inline-block;
+     height: 400px;
+     width: 400px;
+     margin: 50px;
+     border-style: dashed;
+     padding-left: 40px;
+     
+ }
+ 
+
+.card-description{
+    color: var(--cottoncandy);
+    font-size: 1.1rem;
+    margin-left: auto;
+ }
+
+ .copy-pasta{
+    background-image: linear-gradient(rgb(101, 65, 100) 1%, rgb(162, 96, 178));
+    width: 350px;
+    height: 280px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    border-radius: 12.5px;
+ }
+ 
  /* end */
