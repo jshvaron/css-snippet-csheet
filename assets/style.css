@@ -1,56 +1,57 @@
 /* Universals*/
 *{
-   background-color: rgb(55, 61, 67);
-   color: rgb(227, 102, 255);
-}
-
-:root{
-    --cloudy: rgb(146, 146, 146);
-}
-/* end*/
-
-
-/* Headers */
-h1{
+    background-color: rgb(55, 61, 67);
+    color: rgb(227, 102, 255);
+ }
+ 
+ :root{
+     --cloudy: rgb(146, 146, 146);
+ }
+ /* end*/
+ 
+ 
+ /* Headers */
+ h1{
+     display: flex;
+     justify-content: center;
+     font-size: 3rem;
+ }
+ .mid {
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     flex-wrap: wrap;
+     color: var(--cloudy);
+     font-size: 16px;
+     margin: 50px 100px;
+ }
+ h2{
+     border: solid var(--cloudy);
+     margin: -20px auto 0 auto;
+     border-radius: 5px;
+     width: 375px;
+     display: flex;
+     flex-direction: column;
+     padding-left: 4px;
+ 
+ }
+ /* end*/
+ 
+ 
+ /* formats Info cards*/
+ .card {
+     border: black 5px solid;
+     display: inline-block;
+     height: 400px;
+     width: 400px;
+     margin: 50px;
+     
+ }
+ 
+ #container {  
     display: flex;
+    flex-wrap: wrap; 
     justify-content: center;
-    font-size: 3rem;
-}
-.mid {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-wrap: wrap;
-    color: var(--cloudy);
-    font-size: 16px;
-    margin: 50px 100px;
-}
-h2{
-    border: solid var(--cloudy);
-    margin: -20px auto 0 auto;
-    border-radius: 5px;
-    width: 375px;
-    display: flex;
-    flex-direction: column;
-    padding: 1px;
-
-}
-/* end*/
-
-
-/* formats Info cards*/
-.info-cards {
-    border: black 5px solid;
-    display: inline-block;
-    height: 400px;
-    width: 400px;
-    margin-top: 5px;
-    
-}
-
-#structure {
-  display: flex;
-  justify-content: ;  
-
-}
-/* end */
+    margin: ;
+ }
+ /* end */
