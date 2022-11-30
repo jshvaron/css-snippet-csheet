@@ -55,6 +55,7 @@ html{
  }
  .card {
      border: var(--cloudy) 2px solid;
+     transition:  box-shadow .2s;
      display: inline-block;
      height: 400px;
      width: 400px;
@@ -64,6 +65,10 @@ html{
      
  }
  
+ section:hover {
+
+    box-shadow: 10px 10px 50px var(--cottoncandy), -10px -10px 50px  var(--cottoncandy);
+ }
 
 .card-description{
     color: var(--cottoncandy);
@@ -85,5 +90,9 @@ html{
     font-size: 1rem;
     font-family: monospace;
 }
+.bubblegum {
  
+    
+
+}
  /* end */
